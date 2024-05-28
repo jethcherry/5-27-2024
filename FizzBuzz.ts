@@ -16,18 +16,14 @@ function fizzBuzz(n:number):string[]{
                 {
                     numbers.push("Buzz")
                 }
-
-            else if(i%3&&i%5===0)
+             else if(i%3&&i%5===0)
             {
-                numbers.push("FizzBuzz")
-
-                
+                numbers.push("FizzBuzz")    
             }
             else
             {
                 numbers.push(i.toString())
             }
-            
         }
         return numbers
         }

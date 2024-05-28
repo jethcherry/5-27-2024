@@ -2,7 +2,6 @@
 function isPowerOfTwo(n: number): boolean {
     return n > 0 && (n & (n - 1)) === 0;
 }
-
 function power(integerInput: number): boolean {
     return isPowerOfTwo(integerInput);
 }
